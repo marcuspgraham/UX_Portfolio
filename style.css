@@ -294,6 +294,16 @@ h3 {
   background-color: #1f299c;
 }
 
+.IntroHeader {
+  font-size: 60px;
+}
+
+.WMRsize {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
 /* ================================= 
   T-shirt Page
 ==================================== */
@@ -647,6 +657,10 @@ h3 {
 
 /* Main Grid */
 
+.Presentation {
+  font-size: 14px;
+}
+
 .bluebg {
   background-color: #30d1ff;
 }
@@ -774,7 +788,9 @@ h2 {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+
 }
+
 ::selection{
   color: #fff;
   background: #0D6EFD;
@@ -1024,6 +1040,10 @@ form .button-area{
       font-size: 30px;
     }
 
+    .IntroHeader {
+      font-size: 40px;
+    }
+
     /* T-shirt Page */
 
     .banner {
@@ -1049,6 +1069,7 @@ form .button-area{
 
     .introheader > .sbmh {
       padding-left: 20px;
+      font-size: 50px;
     }
 
     .Overview {
@@ -1233,6 +1254,20 @@ form .button-area{
   .Prototype_1 {
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+
+  .Prototype_desktop {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .Video .Video_Smaller {
+    max-width: 200px;
+  }
+
+  video {
+    width: 100%    !important;
+    height: auto   !important;
   }
 
   /* Footer */
