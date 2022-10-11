@@ -10,12 +10,13 @@
 }
 
 body {
-  max-width: 1500px;
-  margin: auto;
+  /* max-width: 1500px;
+  margin: auto; */
 }
 
-header {
-
+.content {
+  /* max-width: 1500px;
+  margin: auto; */
 }
 
 
@@ -569,16 +570,16 @@ h3 {
 }
 
 .greenbg {
-  background-color: #62f0b8;
+  background-color: #F76090;
 }
 
 
 .newcolour {
-  background-color: #62f0b8;
+  background-color: #F76090;
 }
 
 .turquiose {
-  background-color: #62f0b8;
+  background-color: #F76090;
 }
 
 .Iphone2 {
@@ -587,11 +588,11 @@ h3 {
 
 
 .turks {
-  color: #62f0b8;
+  color: #F76090;
 }
 
 .underline {
-  text-decoration: underline #62f0b8 5px;
+  text-decoration: underline #F76090 5px;
 }
 
 .Nobottom {
@@ -625,7 +626,7 @@ h3 {
 }
 
 .greenline {
-  border-bottom: 5px solid #62f0b8;
+  border-bottom: 5px solid #F76090;
 }
 
 .groc_aud {
@@ -655,7 +656,22 @@ h3 {
   Whooshmail Page
 ==================================== *
 
+
 /* Main Grid */
+
+.maxwidth1500 {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.Whooshheadercolour {
+  background-color: #30d1ff;
+}
+
+.Whooshbody {
+  max-width: 1500px;
+  margin: auto;
+}
 
 .Presentation {
   font-size: 14px;
@@ -685,7 +701,6 @@ h2 {
 .BlueBG {
   background-color: #30d1ff;
 }
-
 
 .toplap {
   height: 100%;
@@ -721,6 +736,10 @@ h2 {
   padding-top:20px;
 }
 
+.Whoosh_List .Muchless {
+  padding-top: 0px;
+}
+
 .Wish {
   height: 400px;
   border: 3px solid #000;
@@ -733,6 +752,7 @@ h2 {
 .whooshtop {
   background-color: #30d1ff;
 }
+
 
 .maincopy1 > .adminsketch {
   width: 100%;
@@ -759,7 +779,7 @@ h2 {
 }
 
 .greenline {
-  border-bottom: 5px solid #62f0b8;
+  border-bottom: 5px solid #F76090;
 }
 
 .nextarrow {
@@ -777,6 +797,44 @@ h2 {
 .bottomblue {
   border-bottom: 5px solid #30d1ff;
 }
+
+/* ================================= 
+  About Page
+==================================== */
+
+.Softwareskillsheader p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.Skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.Skills p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Skills li {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.Skills li:hover {
+  color: #fff;
+  pointer-events: none;
+}
+
 
 /* ================================= 
   Contact Page
@@ -1269,6 +1327,10 @@ form .button-area{
     width: 100%    !important;
     height: auto   !important;
   }
+
+  .SSkills {
+  margin-left: 40px;
+}
 
   /* Footer */
 
