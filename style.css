@@ -98,15 +98,15 @@ nav {
   z-index: 1;
   position: fixed;
   width: 100%;
-  background-color: #1f299c;
+  background-color: #30d1ff;
   color: #fff;
-  max-width: 1500px;
 }
 
 .nav-wrap {
   margin: 0 auto;
   padding: 20px 90px;
   display: flex;
+  max-width: 1500px;
 }
 
 .nav-right {
@@ -114,6 +114,14 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.Dark_Blue {
+  background-color: #1f299c;
+}
+
+.Home_Nav {
+  background-color: #1f299c;
 }
 
 .desktop-menu {
@@ -157,7 +165,7 @@ nav {
   transform: rotate(180deg);
 }
 
-.mobile-menu li:hover {
+.mobile-menu a li:hover {
   color: #FD4A1E;
 }
 
@@ -308,6 +316,14 @@ h3 {
 /* ================================= 
   T-shirt Page
 ==================================== */
+
+.Orange_Nav {
+  background-color: #FD4A1E;
+}
+
+.Orange_Head {
+  background-color: #FD4A1E;
+}
 
 .desktopwork:hover {
   color: #1f299c;
@@ -564,6 +580,14 @@ h3 {
 /* ================================= 
   Grocery App
 ==================================== */
+
+.Pink_Nav {
+  background-color: #F76090;
+}
+
+.Whooshheadercolour_pink {
+  background-color: #F76090;
+}
 
 .content h2 {
   text-decoration: none;
